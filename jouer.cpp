@@ -10,7 +10,7 @@ Jouer::Jouer():Case(0),xMario(0),yMario(0),NextMario(0),NextBlock(0),EmptyBox(0)
 Jouer::~Jouer()
 {
    delete ifile;
-    delete [] Case ;
+   delete [] Case ;
 }
 
 void Jouer::BlitterEcran(const Window& screen)
@@ -134,7 +134,7 @@ void Jouer::Input( Window& g)  //maybe... Sure too long
                         MoveMario('b');
                         GoalReach();
                    break;
-                    
+
                     case SDLK_LEFT:
                         FindAround( 'g');
                         MoveMario('g');
@@ -151,6 +151,8 @@ void Jouer::Input( Window& g)  //maybe... Sure too long
                         ViderSurface();
                         ReadFile(); // a changer il faut pointer sur l'instance en cours
                         ChangeIndice();
+                   break;
+                   default:
                    break;
 
               }
