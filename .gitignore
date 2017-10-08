@@ -1,4 +1,4 @@
 CON
-obj/
+obj/*
 mario_sokaban.depend
 mario_sokoban.layout
