@@ -1,0 +1,30 @@
+# depslib dependency file v1.0
+1302471382 source:/media/guillaume-gomez/DATA/1projet/SDL_MarioSokobanLastVersion/Background.cpp
+	<string>
+	<SDL/SDL.h>
+	<SDL/SDL_image.h>
+	"GerenatePicture.h"
+
+1295196982 /media/guillaume-gomez/DATA/1projet/SDL_MarioSokobanLastVersion/GerenatePicture.h
+	<iostream>
+	<fstream>
+	<string>
+
+1294940334 source:/media/guillaume-gomez/DATA/1projet/SDL_MarioSokobanLastVersion/GeneratePicture.cpp
+	<iostream>
+	<SDL/SDL.h>
+	"GerenatePicture.h"
+
+1302513870 source:/media/guillaume-gomez/DATA/1projet/SDL_MarioSokobanLastVersion/jouer.cpp
+	<iostream>
+	<SDL/SDL.h>
+	"GerenatePicture.h"
+
+1506869997 source:/media/guillaume-gomez/DATA/1projet/SDL_MarioSokobanLastVersion/main.cpp
+	<iostream>
+	<SDL/SDL.h>
+	<iostream>
+	<fstream>
+	<string>
+	"GerenatePicture.h"
+
