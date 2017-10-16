@@ -1,4 +1,5 @@
 # mario_sokoban
+![screenshot](./screenshot.png)
 
 ## Compile
 ```
